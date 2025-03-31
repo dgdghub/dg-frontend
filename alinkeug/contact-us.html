@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title>ANLink - Home</title>
+	<title>ANLink - Contact Us</title>
 	<meta name="description" content="" />
 	<meta name="author" content="" />
 	
@@ -64,7 +64,7 @@
 	
 	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-<body class="page home-page">
+<body class="page single-post-page">
 
 	<!-- Primary Page Layout
 	================================================== -->
@@ -124,9 +124,9 @@
 							<!-- BEGIN NAVIGATION -->
 							<nav class="primary">
 								<ul class="sf-menu">
-									<li class="current-menu-item"><a href="index.html">home</a>
+									<li><a href="index.html">home</a>
 										<ul>
-											<li class="current-menu-item"><a href="index.html">Home Fade Effect</a></li>
+											<li><a href="index.html">Home Fade Effect</a></li>
 											<li><a href="index2.html">Home Slide Effect</a></li>
 										</ul>
 									</li>
@@ -162,7 +162,7 @@
 											<li><a href="single-post.html">Single Post</a></li>
 										</ul>
 									</li>
-									<li><a href="contact-us.html">contact us</a></li>
+									<li class="current-menu-item"><a href="contact-us.html">contact us</a></li>
 								</li></ul>
 							</nav>
 							<!-- END NAVIGATION -->
@@ -174,201 +174,112 @@
 			</header>
 			<!-- END HEADER -->
 			
-			<div class="inner_copyright">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="网页模板">网页模板</a></div>
-			<!-- BEGIN SLIDER -->
-			<section id="slider" class="loading">
+			
+			
+			<!-- BEGIN PAGE HEADING -->
+			<section id="heading">
 				
 				<div class="container">
-					<div class="grid_12">
 						
-						<div class="flexslider">
-							<ul class="slides">
-								<!-- Begin Single Slide -->
-								<li>
-									<img src="images/sample/slide1.png" />
-									<div class="slide-caption">
-										<h2>Save time and money</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Get theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<!-- End Single Slide -->
-								<li>
-									<img src="images/sample/slide2.png" />
-									<div class="slide-caption">
-										<h2>cloud computing</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Get theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-								<li>
-									<img src="images/sample/slide3.png" />
-									<div class="slide-caption">
-										<h2>precise verification</h2>
-										<p>Lorem ipsum dolor sit amet, con- sectetur adipiscing elit. Curabitur id ante nisi. In imperdiet sem  ante nisiac eros vestibulum facilisis.</p>
-										<!-- .btn -->
-										<a href="#" class="btn large">
-											<span class="btn-inner">Get theme<em>click here</em><i class="marker"></i></span>
-										</a>
-										<!-- //.btn -->
-									</div>
-								</li>
-							</ul>
-						</div>
-						
+					<div class="grid_8">
+						<!-- BEGIN PAGE HEADING -->
+						<header class="page-heading">
+							<h1>our contact info</h1>
+							<nav class="breadcrumbs">
+								<ul>
+									<li><a href="index.html">home</a></li>
+									<li class="current">contact us</li>
+								</ul>
+							</nav>
+						</header>
+						<!-- END PAGE HEADING -->
 					</div>
+					
+					<div class="grid_4">
+						<div class="prefix_1_2">
+							<!-- BEGIN SEARCH FORM -->
+							<form id="search-form" class="search-form" action="#" />
+								<input type="text" placeholder="site search ..." />
+								<input type="submit" value="" />
+							</form>
+							<!-- END SEARCH FORM -->
+						</div>
+					</div>
+						
 				</div>
 				
 			</section>
-			<!-- END SLIDER -->
+			<!-- END PAGE HEADING -->
+			
 			
 			
 			<!-- BEGIN CONTENT HOLDER -->
-			<div id="content-wrapper" class="large-text">
+			<div id="content-wrapper">
 				
+				<div class="indent">
 				
-				<!-- BEGIN PRIMARY AREA -->
-				<section id="primary-home-area" class="home-area indent">
-					
 					<div class="container">
 						<div class="grid_12">
-						
-							<div class="intro-widget">
-								<h2>What is OptimaSales?</h2>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus libero justo, non egestas dolor. Donec a venenatis massa. Suspendisse ornare, lacus sed vestibulum egestas, velit lectus facilisis neque, at mattis augue dolor quis est. Morbi non lobortis magna. Vestibulum quis lectus sit amet nisi tempus cursus.
-							</div><!-- //.intro-widget -->
-						
+							
+							<!-- BEGIN GOOGLE MAP -->
+							<div class="map-wrapper">
+								<div id="map_canvas"></div>
+							</div>
+							<!-- END GOOGLE MAP -->
+							
 						</div>
 					</div>
 					
-				</section>
-				<!-- END PRIMARY AREA -->
-				
-				
-				<!-- BEGIN SECONDARY AREA -->
-				<section id="secondary-home-area" class="home-area indent">
-					
 					<div class="container">
-					
-						<div class="grid_12">
+						
+						<div class="grid_8">
+							<h4 class="alt-title">send us mail:</h4>
 							
-							<ul class="home-services">
+							<!-- BEGIN CONTACT FORM -->
+							<form method="post" action="sendEmail.php" id="contact-form" class="contact-form" />
+								<div class="grid_5 alpha">
+									<div class="field clearfix">
+										<textarea name="comments" id="comments" cols="30" rows="10" placeholder="your comment..."></textarea>
+									</div>
+								</div>
+								<div class="grid_3 omega">
+									<div class="field clearfix">
+										<input type="text" name="name" id="name" placeholder="your name ..." />
+									</div>
+									<div class="field clearfix">
+										<input type="text" name="email" id="email" placeholder="your email..." />
+									</div>
+									<div class="field clearfix">
+										<input type="text" name="subject" id="subject" placeholder="subject..." />
+									</div>
+									<div class="btn-wrapper">
+										<input type="submit" name="submit" id="submit" value="send" /><i class="btn-marker"></i>
+									</div>
+									<div id="response"></div>
+								</div>
+							</form>
+							<!-- END CONTACT FORM -->
 							
-								<li>
-									<figure class="img-holder">
-										<a href="#"><img src="images/service-img1.png" alt="" width="220" height="220" border="0" /></a>
-									</figure>
-									<h3><a href="#">Collaboration in real time</a></h3>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra turpis ac arcu cursus auctor. Integer sed odio orci. Nulla egestas iaculis rutrum. Donec non nisi sit amet massa fringilla interdum ut in magna. 
-								</li>
-								<li>
-									<figure class="img-holder">
-										<a href="#"><img src="images/service-img2.png" alt="" width="220" height="220" border="0" /></a>
-									</figure>
-									<h3><a href="#">Presice callculation</a></h3>
-									Cras urna leo, adipiscing sed pharetra quis, vehicula at enim. Fusce eu dolor lectus. Phasellus condimentum scelerisque auctor. Etiam nec justo magna. Etiam nec diam eu augue adipiscing bibendum. Donec quis augue lectus. 
-								</li>
-								<li>
-									<figure class="img-holder">
-										<a href="#"><img src="images/service-img3.png" alt="" width="220" height="220" border="0" /></a>
-									</figure>
-									<h3><a href="#">Professional support</a></h3>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. 
-								</li>
-								
-							</ul>
-							
+						</div>
+						
+						<div class="grid_4">
+							<div class="prefix_1_2">
+								<h4 class="alt-title">contacts:</h4>
+								<!-- BEGIN ADDRESS -->
+								<address>
+									101 Wesr Street, New York, NY 12345<br />
+									<strong>Phone:</strong> +1 111 123-45-67<br />
+									<strong>Fax:</strong> +1 111 123-45-67<br />
+									<strong>Email:</strong> <a href="mailto:info@optimasales.com">info@optimasales.com</a><br />
+									<strong>Skype:</strong> <a href="#">optima_sales</a><br />
+								</address>
+								<!-- END ADDRESS -->
+							</div>
 						</div>
 						
 					</div>
 					
-				</section>
-				<!-- END SECONDARY AREA -->
-				
-				
-				<!-- BEGIN TERTIARY AREA -->
-				<section id="tertiary-home-area" class="home-area indent">
-					
-					
-						
-						<!-- BEGIN CUSTOMERS -->
-						<div class="widget-carousel customers-list">
-							<div class="container">
-								<div class="grid_12">
-									<h2>Who are our customers?</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero.  <a href="#">All customers</a></p>
-									
-									<!-- Elastislide Carousel -->
-									<div id="carousel1" class="es-carousel-wrapper">
-										<div class="es-carousel">
-											<ul>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-											</ul>
-										</div>
-									</div><!-- End Elastislide Carousel -->
-									
-								</div>
-							</div>
-						</div>
-						<!-- END CUSTOMERS -->
-						
-						
-						<!-- BEGIN PARTNERS -->
-						<div class="widget-carousel clients-list">
-							<div class="container">
-								<div class="grid_12">
-									<h2>Who do we work with?</h2>
-									<p>orem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus velit consectetur ligula rutrum vestibulum vel eget libero. Etiam volutpat tincidunt placerat. Phasellus consequat nunc eget orci gravida condimentum vel ut ligula. <a href="#">All partners</a></p>
-									
-									<!-- Elastislide Carousel -->
-									<div id="carousel2" class="es-carousel-wrapper">
-										<div class="es-carousel">
-											<ul>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo1.png" alt="Customer 1 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo2.png" alt="Customer 2 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo3.png" alt="Customer 3 Info" /></a></li>
-												<li><a href="#"><img src="images/sm-logo4.png" alt="Customer 4 Info" /></a></li>
-											</ul>
-										</div>
-									</div><!-- End Elastislide Carousel -->
-									
-								</div>
-							</div>
-						</div>
-						<!-- END PARTNERS -->
-						
-					
-					
-				</section>
-				<!-- END TERTIARY AREA -->
-				
+				</div>
 				
 			</div>
 			<!-- END CONTENT HOLDER -->
@@ -438,7 +349,9 @@
 									<div class="widget widget-newsletter">
 										<h4>Get our newsletter:</h4>
 										<form id="newsletter-form" />
-											<input type="text" name="newsletter-text-input" id="newsletter-text-input" value="" placeholder="your email..." />
+											<div class="placeholding-input">
+												<input type="text" name="newsletter-text-input" id="newsletter-text-input" value="" placeholder="your email..." />
+											</div>
 											<div class="submit-holder">
 												<input type="submit" value="" />
 											</div>
@@ -575,28 +488,27 @@
 	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
 	<!-- Reveal Modal -->
 	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	<!-- Contact Form -->
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+	<!-- Google Map -->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="js/jquery.ui.map.js"></script>
 	
 	<!-- Custom -->
 	<script type="text/javascript" src="js/custom.js"></script>
 	
-	<!-- Flexslider Init -->
+	<!-- Google Map Init-->
 	<script type="text/javascript">
-		
-		$(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "fade",
-				controlNav: false,
-				// Callback API
-				before: function(){},
-				after: function(){}, 
-        start: function(slider){
-          $('#slider').removeClass('loading');
-        }
-      });
-    });
-		
+		$(document).ready(function(){
+			//getter
+			var zoom= $('#map_canvas').gmap('option', 'zoom');
+			
+			$('#map_canvas').gmap().bind('init', function(ev, map) {
+				$('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
+				$('#map_canvas').gmap('option', 'zoom', 12);
+			});
+		});
 	</script>
-	
 	
 	<script type="text/javascript">
 
