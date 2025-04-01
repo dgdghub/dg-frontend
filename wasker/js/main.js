@@ -1,13 +1,4 @@
-/* -------------------------------------------
 
-Name:         Wasker
-Version:      1.0
-Developer:    Nazar Miller (millerDigitalDesign)
-更多下载：https://www.bootstrapmb.com
-
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
-
-------------------------------------------- */
 
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
