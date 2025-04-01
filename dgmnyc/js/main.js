@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let preloaderPercent = document.querySelector('.mil-percent');
     let preloaderLine = document.querySelector('.mil-preload-line');
     let preloader = document.querySelector('.mil-preloader');
-    let progress = 100;
+    let progress = 0;
 
     function updatePreloader() {
         if (progress <= 100) {
