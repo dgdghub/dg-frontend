@@ -3,7 +3,7 @@
 Name:         Wasker
 Version:      1.0
 Developer:    Nazar Miller (millerDigitalDesign)
-更多下载：https://www.bootstrapmb.com 
+更多下载：https://www.bootstrapmb.com
 
 p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let preloaderPercent = document.querySelector('.mil-percent');
     let preloaderLine = document.querySelector('.mil-preload-line');
     let preloader = document.querySelector('.mil-preloader');
-    let progress = 0;
+    let progress = 100;
 
     function updatePreloader() {
         if (progress <= 100) {
